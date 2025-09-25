@@ -1,0 +1,218 @@
+body {
+    margin: 0;
+}
+
+section{
+    background-color: #fbfbfb;
+    width: 100%;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 2px;
+    font-family: 'Lora', serif;
+    padding: 30px 0;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 13px;
+    font-family: 'Lora', serif;
+    padding: 30px 0;
+}
+
+.img {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 1200px;
+    margin: 30px auto;
+    row-gap: 30px;
+}
+
+.img>div {
+    flex-basis: 23%;
+    overflow: hidden;
+}
+
+.img>div>img {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.ukrsteno {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.ukrsteno>div {
+    flex-basis: 50%;
+    overflow: hidden;
+}
+
+.ukrsteno>.picleft>img, .ukrsteno>.picright>img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.textright, .textleft {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 50%;
+    justify-content: center;
+}
+
+.planing, .action, .deliver {
+    padding-left: 150px;
+    padding-right: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 50%;
+    justify-content: center;
+}
+
+.text {
+    padding-left: 150px;
+    padding-right: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 50%;
+    justify-content: center;
+}
+
+.planing>h3, .action>h3, .deliver>h3 {
+    font-size: 19px;
+    font-weight: 800;
+    margin: 0;
+}
+
+.text>h3 {
+    font-size: 32px;
+    font-weight: 800;
+    margin: 0;
+}
+
+.longtext>p, .textone>p, .texttwo>p, .textthree>p {
+    color: #727272;
+    line-height: 1.7;
+    margin: 0 auto;
+}
+
+.end {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 1200px;
+    margin: 50px auto;
+}
+
+.pictext {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.bigtext {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    padding-bottom: 35px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.bigtext>h3 {
+    font-size: 32px;
+    font-weight: 800;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.prazno {
+    margin-bottom: 65px;
+    position: relative;
+    z-index: 1;
+}
+
+.crta {
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    max-width: 35px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pictext {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 1000px;
+    margin: 30px auto;
+    row-gap: 30px;
+}
+
+.first, .secound, .third, .fourth {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.foto1>div, .foto2>div, .foto3>div, .foto4>div {
+    flex-basis: 23%;
+    overflow: hidden;
+}
+
+.foto1>div>img, .foto2>div>img, .foto3>div>img, .foto4>div>img {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.text1, .text2, .text3, .text4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+}
+
+.name1>h3, .name2>h3, .name3>h3, .name4>h3 {
+    font-size: 19px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.job1>p, .job2>p, .job3>p, .job4>p {
+    margin: 0;
+    font-size: 15px;
+    color: #888;
+}
